@@ -82,7 +82,7 @@ There are also aggregated json files with all chains automatically assembled:
 
  * the shortName and name MUST be unique - see e.g. EIP-3770 on why
  * if referencing a parent chain - the chain MUST exist in the repo
- * if using a IPFS CID for the icon - the CID MUST be retrievable via `ipfs get` - not only through some gateway (means please do not use pinata for now)
+ * if using a IPFS CID for the icon - the CID MUST be retrievable via `ipfs get` - not only through some gateway (which means, for now, please do not use services like Pinata that are limited to gateway access.)
  * for more constraints you can look into the CI
 
 ## Collision management
